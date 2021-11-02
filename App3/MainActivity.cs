@@ -22,7 +22,7 @@ namespace App3
             btnPlus = (Button)FindViewById(Resource.Id.btnPlus);
             btnMinus = (Button)FindViewById(Resource.Id.btnMinus);
             et = (EditText)FindViewById(Resource.Id.et);
-
+            Toast.MakeText(this, "hi", ToastLength.Long).Show();
             btnPlus.Click += BtnPlus_Click;
 
         }
